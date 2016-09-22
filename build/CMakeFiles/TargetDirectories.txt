@@ -1,0 +1,7 @@
+/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/asteroids.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/glad.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/ALL_BUILD.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/ZERO_CHECK.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/CMakeFiles/ALL_BUILD.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/CMakeFiles/ZERO_CHECK.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/CMakeFiles/glfw.dir
