@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B3FEC48DFE6A449FA87A8904 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = D8D5E3328EE44F14BF652E85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				D6A3275D5A75463B8EC1829A /* CMake Rules */,
+				2047D9464E714902B899E89E /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,13 +20,13 @@
 		};
 		D48FEBF443C44D6F96A5FB47 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 26AC516CA4DA468EA8D60604 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = E05204C8B3794BD2BC0D657D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				F21C904747AC4D4ABBE85513 /* CMake Rules */,
+				EC45FA33CCBB42CEBC88F88A /* CMake Rules */,
 			);
 			dependencies = (
-				5517057664104AE6AE5E37ED /* PBXTargetDependency */,
-				28E79983736F41DB84A46E26 /* PBXTargetDependency */,
+				B7FCE3F546B8409FAA8C129B /* PBXTargetDependency */,
+				B0F709BABFE04DFE864142BB /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,80 +34,80 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0092E1A99C8348B186031AEB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = 15FC54F74932459786DB5AF7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
-		01611142D9594A85BC11AD23 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = F1EEAFC9214C433B98B28942 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
-		296BD86649FC4EDBA23C1EF8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 347B56310D3C442A9ECC152E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
-		3F2C7D7F8683426D9118352D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 50032C3ABD004160AD8860BC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
-		4504274CFCDF441DBD6C7888 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 22F13A99E02744D1B704E6F6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */; settings = {COMPILER_FLAGS = ""; }; };
-		4C544F8410AA4071A546D865 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 61B27E08076C424EB15B8FAB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
-		552DAE2651CB48BDBEF1EEC1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 2EFA91E0AF964A4D84F1FB32 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
-		59B1A79ED7F545F286A106E8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = ABB936E149BB48DD8B8044A4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
-		5D06A84582564753857E2A2A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = A4A9C44CA4C44467BBF500CF /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
-		7E6570C6C7BC4B19BB6C1A41 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 74679B8438A64122B8987988 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */; settings = {COMPILER_FLAGS = ""; }; };
-		823DF3CDEF3342069A5282FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = F52CFD8EACAB41D8A04D40C1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
-		93AFF89E2BDD4563B0B135B2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = FFCE463EAD9341EBA2E0E83E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */; settings = {COMPILER_FLAGS = ""; }; };
-		95974DE710C540AAB2A11AB6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 86739790C0E04CC9B1155C7D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */; settings = {COMPILER_FLAGS = ""; }; };
-		A3616B5DA016403B9B80AA1C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = B81287A0E920457EA482F855 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
-		D28CFAF42C0640F28923FE23 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = F3FC3A42B576483096A4815C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */; settings = {COMPILER_FLAGS = ""; }; };
-		DCF074E1ECA1458B8B2AB477 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = B7FAE2C6D2CF43CE93A0CF76 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
-		DE9F7770E83440DD862BBFE5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = B72C5939C5A945B1981AD670 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
-		E09F8709E4AE4C13ABAA8E34 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 32C58366223C421586743F69 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
-		E3C00F4B0B1F4B6B8FE20F60 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E822D9B9C04A4992B0BDBFA1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		EC0650CB82DF4031997E5116 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = DE7ECAD4C4F54BDC9E733E8E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
-		F7BC2BA68F35471E8DC34EFD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = 12E0E614FC37428C986E3D57 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
-		FB2674D356534896B40BAD65 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = F76CF60073424CEEB8D54B34 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0EFA8C4432C5415C88BF9CE9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = CC3A0904C2C44861B7571AA6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
+		11BC399553D44E52A505C31D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = B471AC4110AA4C47B455CC7D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		142458276A5E46099440467E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 01805D00FCB24FB98492F456 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1707DA72B17F4D7D9BD6A454 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = B68D910BB78541A48648C1D6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		178BB2E3F086443BAC741AF1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = 6E11BF5A0A864FB8B5E8657A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		307938419D4847428D2CBA8F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = CA30E78E71824525A5CF4926 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4E9FDB565C3148BB8A80A6CB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 8A9C59BEAA314E42ABEC9270 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */; settings = {COMPILER_FLAGS = ""; }; };
+		678D47E8F7F540BCB9E2D105 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 8435DC857887438788930A5D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		6ADCDED1845A48AFA91833BF /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = C07B32F1C4FD4F919E3D79DB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */; settings = {COMPILER_FLAGS = ""; }; };
+		84439C5BE7A54AFDAF9B2FDB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 52B810D67EC9457E9101526F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */; settings = {COMPILER_FLAGS = ""; }; };
+		872D9D6C7FB1421D8AA8CC29 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 17039BE45033426DB32456BC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9042A47C60A940CF8FD314C2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 34C0470D1CC442838CAC77D5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9FE8C1F2DB5A40BE9724036F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 7A3684DA049A42688FC412D6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		A57D0B7C712C44108A2B4A79 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 34125832DA274BE191A8F462 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B56357B3026642D88F177555 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = B6F27084D49648749B6F1960 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B731BBB3C3EA46639639E178 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 9A9A22164CE346DD88B219D5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B8632B3673574A3597FEAC40 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 12AA09FFDD924C3A95433445 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		C23AFE655FF240B1AEA04CBC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = BDFA0A8258634145A750537F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C3929361E6504AFEA9AFAE82 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 1B78B73B1DFE48DEBECDF89E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C6B5E3BAA38E4997BDBE481C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C6F757269FE94849B2A442FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		CB6BDB6ACC9840CC9C026A3E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 01E70A8FAFFA4AF5A7EF3DCD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FC01E4716B0D44C5B5D862D6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = D574E6E585FF49ECBA464495 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		05F392AC96744157A9A5FD12 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		11796AAE67E848DBAE3A95B7 = {
-			isa = PBXBuildStyle;
-		};
-		137DF5865D384871B51FC0E5 /* Debug */ = {
+		149397DCA7B34DB190B9F2C8 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		28891857D46144F28C664E76 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		FE97198BC73B46BF8A3D1A62 /* Release */ = {
+		393B687F78F5411CB71BF32A /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		402368D481F24AFCA15EB0C7 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B284A828210746878B4B08A6 = {
+			isa = PBXBuildStyle;
+		};
+		C6667AE23E724A7C8244F093 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1D9C3AF0785E4E6389E44252 /* PBXContainerItemProxy */ = {
+		3A26FE0542C54D0F979398E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1CADAEB8F5DB44D1B56C2BE8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BCEA4CF2C3B8412D9B2308A9;
 			remoteInfo = ZERO_CHECK;
 		};
-		4A0DF246AA6E4E688F4981CC /* PBXContainerItemProxy */ = {
+		52162F405E0C4C1BB94338C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1CADAEB8F5DB44D1B56C2BE8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C1021179BDF42908A084F4E;
 			remoteInfo = glfw;
 		};
-		B725A6BA738446DA890B601B /* PBXContainerItemProxy */ = {
+		CD831B860F8A4FF988830C83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1CADAEB8F5DB44D1B56C2BE8 /* Project object */;
 			proxyType = 1;
@@ -117,151 +117,151 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12E0E614FC37428C986E3D57 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		15FC54F74932459786DB5AF7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		22F13A99E02744D1B704E6F6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
-		2EFA91E0AF964A4D84F1FB32 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		32C58366223C421586743F69 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		347B56310D3C442A9ECC152E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		50032C3ABD004160AD8860BC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		61B27E08076C424EB15B8FAB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		74679B8438A64122B8987988 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		86739790C0E04CC9B1155C7D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
-		98A99D02C09744489244811D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A4A9C44CA4C44467BBF500CF /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		ABB936E149BB48DD8B8044A4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		B72C5939C5A945B1981AD670 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		B7FAE2C6D2CF43CE93A0CF76 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		B81287A0E920457EA482F855 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		DABC85F6FB4749E596681EB8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		DE7ECAD4C4F54BDC9E733E8E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		E822D9B9C04A4992B0BDBFA1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F148D3024648440B8846800B /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1EEAFC9214C433B98B28942 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		F3FC3A42B576483096A4815C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		F52CFD8EACAB41D8A04D40C1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		F76CF60073424CEEB8D54B34 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
-		FFCE463EAD9341EBA2E0E83E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		01805D00FCB24FB98492F456 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		01E70A8FAFFA4AF5A7EF3DCD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		12AA09FFDD924C3A95433445 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		17039BE45033426DB32456BC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		1B78B73B1DFE48DEBECDF89E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		34125832DA274BE191A8F462 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		34C0470D1CC442838CAC77D5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		52B810D67EC9457E9101526F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		6E11BF5A0A864FB8B5E8657A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		74FEFEA34D294D8E8833424C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7A3684DA049A42688FC412D6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		8435DC857887438788930A5D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		86AAEB59DC134E59A2E21792 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9C59BEAA314E42ABEC9270 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		9A9A22164CE346DD88B219D5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		B471AC4110AA4C47B455CC7D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		B6169103A92445258AEB1F7F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B68D910BB78541A48648C1D6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		B6F27084D49648749B6F1960 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		BDFA0A8258634145A750537F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		C07B32F1C4FD4F919E3D79DB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		C6F757269FE94849B2A442FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CA30E78E71824525A5CF4926 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		CC3A0904C2C44861B7571AA6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		D574E6E585FF49ECBA464495 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		1ADF201F994D4FD4896D8677 /* glfw */ = {
-			isa = PBXGroup;
-			children = (
-				86300E48B35E4459B91502CF /* Source Files */,
-				67E8B427895E4D0092E11839 /* Header Files */,
-				E822D9B9C04A4992B0BDBFA1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */,
-			);
-			name = glfw;
-			sourceTree = "<group>";
-		};
-		2800728CD0DF40D39B2C8539 /* ZERO_CHECK */ = {
-			isa = PBXGroup;
-			children = (
-				3533E8D5554E456CA8E00F70 /* CMake Rules */,
-				98A99D02C09744489244811D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */,
-			);
-			name = ZERO_CHECK;
-			sourceTree = "<group>";
-		};
-		3533E8D5554E456CA8E00F70 /* CMake Rules */ = {
+		1F1DA93453C546D6B6C30B7C /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		6775DC0000B34EBD85430030 /* Resources */ = {
+		29FAFB25B1C540ECA49B7A64 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				75AE2A0F86614BE3802FB115 /* CMake Rules */,
+				B6169103A92445258AEB1F7F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		43E3E01A64C04F7FB7FC4363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AAEB59DC134E59A2E21792 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C16C63C5B34FDF8B4B34E1 = {
+			isa = PBXGroup;
+			children = (
+				55A80C84F0994584AE881467 /* Sources */,
+				C4272E4A807D470B81E37997 /* Resources */,
+				43E3E01A64C04F7FB7FC4363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF20524CC074AF6B2EAF6C3 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				BB503273F3A44DC18651DAF7 /* Source Files */,
+				A1721F94AEFE4410945F37F5 /* Header Files */,
+				C6F757269FE94849B2A442FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		55A80C84F0994584AE881467 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29FAFB25B1C540ECA49B7A64 /* ALL_BUILD */,
+				D90BBB855A594B40B8A9A233 /* ZERO_CHECK */,
+				862BD456ABBE4AB0A550EBEE /* GLFW3 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		75AE2A0F86614BE3802FB115 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		862BD456ABBE4AB0A550EBEE /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				4BF20524CC074AF6B2EAF6C3 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		A1721F94AEFE4410945F37F5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E70A8FAFFA4AF5A7EF3DCD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */,
+				17039BE45033426DB32456BC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */,
+				CC3A0904C2C44861B7571AA6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */,
+				01805D00FCB24FB98492F456 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */,
+				1B78B73B1DFE48DEBECDF89E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */,
+				D574E6E585FF49ECBA464495 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */,
+				C07B32F1C4FD4F919E3D79DB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */,
+				8A9C59BEAA314E42ABEC9270 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BB503273F3A44DC18651DAF7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A3684DA049A42688FC412D6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */,
+				9A9A22164CE346DD88B219D5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */,
+				12AA09FFDD924C3A95433445 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */,
+				34125832DA274BE191A8F462 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */,
+				B6F27084D49648749B6F1960 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */,
+				BDFA0A8258634145A750537F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */,
+				CA30E78E71824525A5CF4926 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */,
+				B68D910BB78541A48648C1D6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */,
+				B471AC4110AA4C47B455CC7D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */,
+				8435DC857887438788930A5D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */,
+				34C0470D1CC442838CAC77D5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */,
+				52B810D67EC9457E9101526F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */,
+				6E11BF5A0A864FB8B5E8657A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C4272E4A807D470B81E37997 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		67E8B427895E4D0092E11839 /* Header Files */ = {
+		D90BBB855A594B40B8A9A233 /* ZERO_CHECK */ = {
 			isa = PBXGroup;
 			children = (
-				22F13A99E02744D1B704E6F6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/glfw_config.h */,
-				F1EEAFC9214C433B98B28942 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3.h */,
-				347B56310D3C442A9ECC152E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include/GLFW/glfw3native.h */,
-				F3FC3A42B576483096A4815C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.h */,
-				ABB936E149BB48DD8B8044A4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_platform.h */,
-				32C58366223C421586743F69 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/internal.h */,
-				86739790C0E04CC9B1155C7D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.h */,
-				FFCE463EAD9341EBA2E0E83E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.h */,
+				1F1DA93453C546D6B6C30B7C /* CMake Rules */,
+				74FEFEA34D294D8E8833424C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */,
 			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		6A35F292082841C0BDB74490 /* GLFW3 */ = {
-			isa = PBXGroup;
-			children = (
-				1ADF201F994D4FD4896D8677 /* glfw */,
-			);
-			name = GLFW3;
-			sourceTree = "<group>";
-		};
-		80E20ABE15CF440FBD90150E /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				D192FA213F5044DFA923DD24 /* ALL_BUILD */,
-				2800728CD0DF40D39B2C8539 /* ZERO_CHECK */,
-				6A35F292082841C0BDB74490 /* GLFW3 */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		86300E48B35E4459B91502CF /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				A4A9C44CA4C44467BBF500CF /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */,
-				B7FAE2C6D2CF43CE93A0CF76 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */,
-				F52CFD8EACAB41D8A04D40C1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */,
-				61B27E08076C424EB15B8FAB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */,
-				50032C3ABD004160AD8860BC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */,
-				15FC54F74932459786DB5AF7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */,
-				DE7ECAD4C4F54BDC9E733E8E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */,
-				12E0E614FC37428C986E3D57 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */,
-				B81287A0E920457EA482F855 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */,
-				2EFA91E0AF964A4D84F1FB32 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */,
-				F76CF60073424CEEB8D54B34 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */,
-				74679B8438A64122B8987988 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */,
-				B72C5939C5A945B1981AD670 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		B4D16609B148439394EF8267 = {
-			isa = PBXGroup;
-			children = (
-				80E20ABE15CF440FBD90150E /* Sources */,
-				6775DC0000B34EBD85430030 /* Resources */,
-				C4DFB1C49F144E1A9CD8C851 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		B79A0D1F8D274F3DB9B3FA29 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		C4DFB1C49F144E1A9CD8C851 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F148D3024648440B8846800B /* glfw */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D192FA213F5044DFA923DD24 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				B79A0D1F8D274F3DB9B3FA29 /* CMake Rules */,
-				DABC85F6FB4749E596681EB8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
+			name = ZERO_CHECK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,18 +269,18 @@
 /* Begin PBXNativeTarget section */
 		5C1021179BDF42908A084F4E /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 257787B804DA42E48AAD283F /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = 3EAB42E988DD4E8893436B5E /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				1E88BB4E478540669D8A4E50 /* Sources */,
+				11242CEDFCF3453EB61DAAAD /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B835813C1A884FA8B530167D /* PBXTargetDependency */,
+				AB8BF40FF5284A1F820FE430 /* PBXTargetDependency */,
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = F148D3024648440B8846800B /* glfw */;
+			productReference = 86AAEB59DC134E59A2E21792 /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -292,18 +292,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0730;
 			};
-			buildConfigurationList = 2D0DEC6F139F426CA822F129 /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 1EEA004B7BA34691899E5230 /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				137DF5865D384871B51FC0E5 /* Debug */,
-				FE97198BC73B46BF8A3D1A62 /* Release */,
-				28891857D46144F28C664E76 /* MinSizeRel */,
-				05F392AC96744157A9A5FD12 /* RelWithDebInfo */,
+				149397DCA7B34DB190B9F2C8 /* Debug */,
+				393B687F78F5411CB71BF32A /* Release */,
+				C6667AE23E724A7C8244F093 /* MinSizeRel */,
+				402368D481F24AFCA15EB0C7 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = B4D16609B148439394EF8267;
+			mainGroup = 48C16C63C5B34FDF8B4B34E1;
 			projectDirPath = "../../glfw-3.2";
 			projectRoot = "";
 			targets = (
@@ -315,37 +315,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8477C8E261CC49199251DB88 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		9A505DFB36034AF69B751E85 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		D6A3275D5A75463B8EC1829A /* CMake Rules */ = {
+		2047D9464E714902B899E89E /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +326,37 @@ exit 0";
 			shellScript = "make -C /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/midterm/asteroids_template/build/glfw-3.2 -f /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/midterm/asteroids_template/build/glfw-3.2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		F21C904747AC4D4ABBE85513 /* CMake Rules */ = {
+		3FCD1A205D654F9580DF9D49 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		478B9B8C41974828AF3DDC9C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EC45FA33CCBB42CEBC88F88A /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,93 +370,57 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E88BB4E478540669D8A4E50 /* Sources */ = {
+		11242CEDFCF3453EB61DAAAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D06A84582564753857E2A2A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */,
-				DCF074E1ECA1458B8B2AB477 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */,
-				823DF3CDEF3342069A5282FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */,
-				4C544F8410AA4071A546D865 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */,
-				3F2C7D7F8683426D9118352D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */,
-				0092E1A99C8348B186031AEB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */,
-				EC0650CB82DF4031997E5116 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */,
-				F7BC2BA68F35471E8DC34EFD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */,
-				A3616B5DA016403B9B80AA1C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */,
-				552DAE2651CB48BDBEF1EEC1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */,
-				FB2674D356534896B40BAD65 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */,
-				7E6570C6C7BC4B19BB6C1A41 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */,
-				DE9F7770E83440DD862BBFE5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */,
+				9FE8C1F2DB5A40BE9724036F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_init.m */,
+				B731BBB3C3EA46639639E178 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_joystick.m */,
+				B8632B3673574A3597FEAC40 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_monitor.m */,
+				A57D0B7C712C44108A2B4A79 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_time.c */,
+				B56357B3026642D88F177555 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/cocoa_window.m */,
+				C23AFE655FF240B1AEA04CBC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/context.c */,
+				307938419D4847428D2CBA8F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/init.c */,
+				1707DA72B17F4D7D9BD6A454 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/input.c */,
+				11BC399553D44E52A505C31D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/monitor.c */,
+				678D47E8F7F540BCB9E2D105 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/nsgl_context.m */,
+				9042A47C60A940CF8FD314C2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/posix_tls.c */,
+				84439C5BE7A54AFDAF9B2FDB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/vulkan.c */,
+				178BB2E3F086443BAC741AF1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		28E79983736F41DB84A46E26 /* PBXTargetDependency */ = {
+		AB8BF40FF5284A1F820FE430 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */;
-			targetProxy = B725A6BA738446DA890B601B /* PBXContainerItemProxy */;
+			targetProxy = CD831B860F8A4FF988830C83 /* PBXContainerItemProxy */;
 		};
-		5517057664104AE6AE5E37ED /* PBXTargetDependency */ = {
+		B0F709BABFE04DFE864142BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */;
+			targetProxy = 3A26FE0542C54D0F979398E8 /* PBXContainerItemProxy */;
+		};
+		B7FCE3F546B8409FAA8C129B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5C1021179BDF42908A084F4E /* glfw */;
-			targetProxy = 4A0DF246AA6E4E688F4981CC /* PBXContainerItemProxy */;
-		};
-		B835813C1A884FA8B530167D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */;
-			targetProxy = 1D9C3AF0785E4E6389E44252 /* PBXContainerItemProxy */;
+			targetProxy = 52162F405E0C4C1BB94338C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		057A6EE689744BF19F372F9E /* RelWithDebInfo */ = {
+		0EAC8197548A41B9A1780038 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/build";
 			};
 			name = RelWithDebInfo;
 		};
-		087FCD34FE684CB8B4D87AA4 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		0FDF7556F3914DD7A7EACE4E /* Release */ = {
+		14EA6014856F4FAF9025F1AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -481,90 +445,21 @@ exit 0";
 			};
 			name = Release;
 		};
-		10C262EEB526474588802DFD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		2010420353C543D3A23C7BC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/build";
-			};
-			name = Release;
-		};
-		47F144916CF84A11A82AF8C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		80863D9861C4469799B84FFF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		9122991388524628901E0CEC /* MinSizeRel */ = {
+		165595B6540E4EEAA6E4341D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"", );
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
@@ -573,9 +468,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		A2DF94A78A274D31B7EC891B /* Debug */ = {
+		314C1266BF1847E09B3E670D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -595,25 +490,65 @@ exit 0";
 			};
 			name = Debug;
 		};
-		A3826013E0DF4DC98C6DE295 /* RelWithDebInfo */ = {
+		4281FC80385742C990ABBD6B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/build";
+			};
+			name = MinSizeRel;
+		};
+		513BD4E7B1514CF287E896A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		5E1F7D0D48E149FBBECB90F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/build";
+			};
+			name = Release;
+		};
+		765BACDD22D14A56AE85E12C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
 			name = RelWithDebInfo;
 		};
-		B4C540ECAB3847368A3CF8EB /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/build";
-			};
-			name = MinSizeRel;
-		};
-		B94170BCAF9C462DB68A85FC /* Debug */ = {
+		89CF7D41514A441C81CAF7A9 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -631,49 +566,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		C4C60A5669784423B941FC4D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		DF5C4611A1AA4804BF2D3A9E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		EEAF56471CF84810A1CCC24B /* Debug */ = {
+		9115D7009F0641C280432AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -698,7 +593,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		F9A1F8A5D0994685B2B1F654 /* Debug */ = {
+		A6C7FB72A03643FCAD0F0AA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -707,49 +602,154 @@ exit 0";
 			};
 			name = Debug;
 		};
+		C28D73D719F3419496D119CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		CB4FBE70FEBD4F90B763C59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		CEA3BBA88E1147C58C39D580 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		EE177B66EAC247CB9F1C80DC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		FE6C46F38DA94226954A1022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		257787B804DA42E48AAD283F /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		1EEA004B7BA34691899E5230 /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEAF56471CF84810A1CCC24B /* Debug */,
-				0FDF7556F3914DD7A7EACE4E /* Release */,
-				9122991388524628901E0CEC /* MinSizeRel */,
-				087FCD34FE684CB8B4D87AA4 /* RelWithDebInfo */,
+				A6C7FB72A03643FCAD0F0AA1 /* Debug */,
+				5E1F7D0D48E149FBBECB90F0 /* Release */,
+				4281FC80385742C990ABBD6B /* MinSizeRel */,
+				0EAC8197548A41B9A1780038 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		26AC516CA4DA468EA8D60604 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		3EAB42E988DD4E8893436B5E /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B94170BCAF9C462DB68A85FC /* Debug */,
-				47F144916CF84A11A82AF8C2 /* Release */,
-				DF5C4611A1AA4804BF2D3A9E /* MinSizeRel */,
-				80863D9861C4469799B84FFF /* RelWithDebInfo */,
+				9115D7009F0641C280432AEB /* Debug */,
+				14EA6014856F4FAF9025F1AC /* Release */,
+				EE177B66EAC247CB9F1C80DC /* MinSizeRel */,
+				165595B6540E4EEAA6E4341D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2D0DEC6F139F426CA822F129 /* Build configuration list for PBXProject "GLFW" */ = {
+		D8D5E3328EE44F14BF652E85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9A1F8A5D0994685B2B1F654 /* Debug */,
-				2010420353C543D3A23C7BC7 /* Release */,
-				B4C540ECAB3847368A3CF8EB /* MinSizeRel */,
-				A3826013E0DF4DC98C6DE295 /* RelWithDebInfo */,
+				314C1266BF1847E09B3E670D /* Debug */,
+				FE6C46F38DA94226954A1022 /* Release */,
+				CEA3BBA88E1147C58C39D580 /* MinSizeRel */,
+				765BACDD22D14A56AE85E12C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B3FEC48DFE6A449FA87A8904 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		E05204C8B3794BD2BC0D657D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2DF94A78A274D31B7EC891B /* Debug */,
-				10C262EEB526474588802DFD /* Release */,
-				C4C60A5669784423B941FC4D /* MinSizeRel */,
-				057A6EE689744BF19F372F9E /* RelWithDebInfo */,
+				CB4FBE70FEBD4F90B763C59C /* Debug */,
+				C28D73D719F3419496D119CB /* Release */,
+				513BD4E7B1514CF287E896A2 /* MinSizeRel */,
+				89CF7D41514A441C81CAF7A9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

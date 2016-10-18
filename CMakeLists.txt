@@ -34,7 +34,15 @@ add_executable(asteroids WIN32 MACOSX_BUNDLE
 	shaders/shader.cpp
 	source/main.cpp
 	source/Ship.cpp
-	source/Ship.h 
+	source/Ship.h
+    source/Asteroid.h
+    source/Asteroid.cpp
+    source/Asteroids.h
+    source/Asteroids.cpp
+	source/Bullet.hpp
+	source/Bullet.cpp
+    source/Bullets.hpp
+    source/Bullets.cpp
 	shaders/fshader_Ship.glsl
 	shaders/vshader_Ship.glsl)
 	

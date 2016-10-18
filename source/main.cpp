@@ -1,8 +1,20 @@
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 #include "common.h"
+#include "Asteroid.h"
+#include "shader.h"
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+#include <chrono>
+#include <thread>
 
 using namespace Angel;
 
+Asteroids asteroids;
 Ship ship;
+int lives = 3;
 
 static void error_callback(int error, const char* description)
 {
@@ -13,8 +25,9 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 {
   if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
     glfwSetWindowShouldClose(window, GLFW_TRUE);
-  if (key == GLFW_KEY_LEFT && (action == GLFW_PRESS || action == GLFW_REPEAT))
-    ship.rotateLeft();
+    if (key == GLFW_KEY_LEFT && (action == GLFW_PRESS || action == GLFW_REPEAT)){
+        ship.rotateLeft();
+    }
   if (key == GLFW_KEY_RIGHT && (action == GLFW_PRESS || action == GLFW_REPEAT))
     ship.rotateRight();
   if (key == GLFW_KEY_SPACE){
@@ -26,23 +39,36 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
     }
   }
   if (key == GLFW_KEY_Z && action == GLFW_PRESS){
-    //!!!!!!!!Fire bullet
+      ship.fire();
+      //asteroids.change();
   }
 }
 
 void init(){
   
+    
   glClearColor(0.0, 0.0, 0.0, 1.0);
   glHint (GL_LINE_SMOOTH_HINT, GL_NICEST);
   glHint (GL_POINT_SMOOTH_HINT, GL_NICEST);
   ship.gl_init();
-  
+    ship.cluster.gl_init();
+  asteroids.gl_init();
+    asteroids.start();
+
 }
 
 void animate(){
   if(glfwGetTime() > 0.033){
     glfwSetTime(0.0);
     ship.update_state();
+    asteroids.update_state();
+    if(ship.cluster.bullets.size() != 0){
+        if(asteroids.bullet_hit(ship.cluster.return_first()) == true){
+            ship.cluster.delete_first();
+        };
+    }
+    ship.cluster.step();
+    ship.crash(asteroids.ship_crash(ship.get_location()));
   }
 }
 
@@ -85,14 +111,37 @@ int main(void)
     
     //!!!!!!!!Pick a projection that makes the most sense to you
     ship.set_extents(width, height);
+    asteroids.set_extents(width, height);
+      ship.cluster.set_extents(width, height);
     mat4 proj = Ortho2D(-width/2, width/2, height/2, -height/2);
-    
     animate();
     
     glClear(GL_COLOR_BUFFER_BIT);
     
     ship.draw(proj);
-    
+      if(asteroids.asteroids.size() == 0){
+          std::cout << "Great Job! You Win!" << std::endl;
+      }
+    asteroids.draw(proj);
+      if(ship.cluster.active() == true){
+          ship.cluster.update();
+          ship.cluster.draw(proj);
+      }
+      
+      if(ship.crashed() == true){ 
+          std::cout << "crash!" << std::endl;
+          if(lives > 1){
+              lives--;
+              //Do animation
+              ship.ship_reset();
+              ship.draw(proj);
+              std::this_thread::sleep_for(std::chrono::seconds(1));
+          }
+          else{
+              std::cout << "Game Over" << std::endl;
+              break;
+          }
+      }
     glfwSwapBuffers(window);
     glfwPollEvents();
     

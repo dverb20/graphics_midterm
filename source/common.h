@@ -22,6 +22,9 @@ using namespace Angel;
 
 #include "shader.h"
 #include "Ship.h"
+#include "Asteroids.h"
+#include "Asteroid.h"
+
 
 
 

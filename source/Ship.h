@@ -10,6 +10,7 @@
 #define __Asteroids__Ship__
 
 #include "common.h"
+#include "Bullets.hpp"
 
 #define _MAX_SPEED 10
 #define _DAMPING 0.98
@@ -22,14 +23,15 @@ class Ship{
   vec3 ship_color[6];
   
   float width, height;
-  
-  
+    
   //Ship State
   struct {
     vec2 cur_location;
     vec2 pointing;
     vec2 move;
     bool thruster_on;
+    bool max_power;
+    bool collision;
     float angle;
   } state;
   
@@ -54,19 +56,29 @@ class Ship{
   }
   
 public:
-  
-
-  Ship();
-  
+    
+    Ship();
+    Bullets cluster;
+    
   inline void start_thruster(){ state.thruster_on= true;}
   inline void stop_thruster() { state.thruster_on= false;}
 
-  inline void rotateLeft() {  state.angle-=_ROT;   state.pointing =  RotateZ(state.angle) * vec2(0.0,-1.0);}
-  inline void rotateRight(){  state.angle+=_ROT;   state.pointing =  RotateZ(state.angle) * vec2(0.0,-1.0);}
+  inline void rotateLeft() {  state.angle-=_ROT;   state.pointing =  RotateZ(state.angle) * vec2(1.0,0.0);}
+  inline void rotateRight(){  state.angle+=_ROT;   state.pointing =  RotateZ(state.angle) * vec2(1.0,0.0);}
     
   void update_state();
+    
+    vec2 get_location();
   
-  void gl_init();  
+  void gl_init();
+
+    void fire();
+    
+    void crash(bool crash);
+    
+    bool crashed();
+    
+    void ship_reset();
   
   void draw(mat4 proj);
   
@@ -74,6 +86,7 @@ public:
     width  = w/2;
     height = h/2;
   }
+    
 };
 
 

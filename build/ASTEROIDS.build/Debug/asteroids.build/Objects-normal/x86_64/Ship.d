@@ -8,4 +8,8 @@ dependencies: \
   /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/utils/vec.h \
   /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/utils/mat.h \
   /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/shaders/shader.h \
-  /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/Ship.h
+  /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/Ship.h \
+  /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/Bullets.hpp \
+  /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/Bullet.hpp \
+  /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/Asteroids.h \
+  /Users/dannyverb/Dropbox/Senior\ Year/Graphics/midterm/asteroids_template/source/Asteroid.h

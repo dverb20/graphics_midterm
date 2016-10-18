@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 627CAB4CB5084C7C96532F4A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 0C6A952A8FA54CBD948C8991 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				211F601701624CB19E938184 /* CMake Rules */,
+				487302D835884DB0B0DAE2CB /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,15 +20,15 @@
 		};
 		D48FEBF443C44D6F96A5FB47 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 41C60CA1275D45E8AE2673AB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 1CC58F5FF26D4EDA928D59AB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				EBC59636697C4AD696D8F1E1 /* CMake Rules */,
+				983535535A8D45138AAF5CB8 /* CMake Rules */,
 			);
 			dependencies = (
-				AEC55EB90BA0488AA266D28A /* PBXTargetDependency */,
-				73455743D1CB48D4A151FCC7 /* PBXTargetDependency */,
-				64FB428C7BFE4A428DEC0230 /* PBXTargetDependency */,
-				DD0ADAFC6F2A4BE1A97C8AB4 /* PBXTargetDependency */,
+				8C8C0391A2A64E2DAA0DAF64 /* PBXTargetDependency */,
+				DEE3F626161F4AB98C5D0566 /* PBXTargetDependency */,
+				64F198E50FA04F1BA2D571AE /* PBXTargetDependency */,
+				B383E06BB9EF4B6B81281EE4 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -36,83 +36,87 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		050637B4DF344747B50310C2 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = FFEDF539F1B745FBA7C11B86 /* vulkan.c */; settings = {COMPILER_FLAGS = ""; }; };
-		06FBF1D5BDCE4569BACE58D4 /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EBD4D44C3544D0AED68343 /* cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
-		0F7F232DF0114E50B96C7812 /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F8DC44BC1D4B80975B7550 /* cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
-		105A104835534778821C01D1 /* posix_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 4907479FF1424135A2DD714E /* posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
-		27CF37BFB1EF4DCA859DB61E /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B8CEDBB07D4365AB93709D /* cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
-		2A74163296744F9BB4528C5B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30AD0902FACA4E3F8B4EE5B8 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		2E57324DD8FF4C00A9CDE6B3 /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D045C529F3438EAFEFD40E /* cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
-		40B85AC221A046D58C6EA681 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 8082EEF4DD1B4E4DA217E885 /* input.c */; settings = {COMPILER_FLAGS = ""; }; };
-		435D070DBBE94ED8A87246E3 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 32D2F08FC69A40518BFB5E67 /* window.c */; settings = {COMPILER_FLAGS = ""; }; };
-		46319735AC654370883761E5 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 254F46700ECD476D822C7884 /* glad.c */; settings = {COMPILER_FLAGS = ""; }; };
-		547B6724E0C24918AE9D848D /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 095CC845A4764367B82FA9DF /* cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
-		60DA96E4057C408F980BEF17 /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F93F7A58B4FEC933FCA1B /* nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
-		706B48EDDA644EE8B93F3898 /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = 58A6DE13127E4BF593652490 /* context.c */; settings = {COMPILER_FLAGS = ""; }; };
-		ADF4A3F82FB54539BC0FDD17 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A14EA6349FD4FB6979C2866 /* init.c */; settings = {COMPILER_FLAGS = ""; }; };
-		C02C0FC814694227A30DC152 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 022101487DFA4E23AAAD54AE /* shader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		F75D0EF84BD04FFD8A906B5E /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D086EE14C2344F39C241B2B /* Ship.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		FBF5D3C00CBA4B6986520ABB /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 600D533C46A24F4F81502F50 /* monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		155FC8DAF5A64C5CB81CF48C /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = 38A731ED8F374A7D98333116 /* init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		36D6D68675DA4CF690CC698F /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 76EA61C585794613B6BF2B92 /* window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4004947CF32C472E96329677 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D70DA6910C4F6C815EC8DD /* shader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		43532303DE2041778EA28F5F /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE682C1F05374616938009AC /* Ship.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4D665E29236542F6B2219EEB /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F19D1580F4550958FC023 /* cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		51445BE92556474BA2FF9440 /* Bullets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15FEA258428F4FCAA4CC346C /* Bullets.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		525AD2BC6F344A7584318BC6 /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = FC358E6D44EF483DBD6A083F /* cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		5FCE32B9E4CB4745A1DF7765 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D90F8A92441C8908D19B4 /* input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		60879255CC2A4EA983C34761 /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 879229E953A24536BE1EA3AF /* nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		6D7A2842799B40B4801AF72D /* Asteroids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5AAEE794F94A1490BF2C95 /* Asteroids.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6FD351C36A7D4625AD7F812D /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D08465436324DABA87BB265 /* cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		711553A9B30A4529ABDBEA5B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E627883EC6B452ABC3C3BFA /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		72BCE87041D04639ACDAB1F1 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 68B638F9E299449A80002F01 /* monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9CDDEF5446D144FCA16D0818 /* posix_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = E981772F3D6A44FD9F69FB80 /* posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9DA07D765D914F88838368F8 /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DF350DE043B4EBEBB08F582 /* context.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B9BDE14D332D447D8E407D3C /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0885FAE9952A4A0EB8324480 /* Bullet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C2D8B2AD529041E49C9085F6 /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = E5520FB2F51040BFA5BB08EC /* cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D000DE5A407645A692C8C2AD /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = BB49960C978146238F2CD093 /* glad.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D5CBC4FAE38E47A8B09AEC16 /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549D23318A345828E7F7875 /* cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		FB01120E773843B0885D0EA9 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = C4CB0D0C71BC4B14A3B80DD4 /* vulkan.c */; settings = {COMPILER_FLAGS = ""; }; };
+		FBACA29363E94AE7BE00B276 /* Asteroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 789EE4A6F5884ACB8D69CF1B /* Asteroid.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DDEF5206D5F42A5986F0839 /* PBXContainerItemProxy */ = {
+		0664E9C1DC7C4809AFDA4A9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BCEA4CF2C3B8412D9B2308A9;
-			remoteInfo = ZERO_CHECK;
+			remoteGlobalIDString = 5C1021179BDF42908A084F4E;
+			remoteInfo = glfw;
 		};
-		2A1143F493EB44E28EDF13FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B5341F9A48A47CE89FC909B;
-			remoteInfo = glad;
-		};
-		3A5CA148A01C443DBCD0A31D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCEA4CF2C3B8412D9B2308A9;
-			remoteInfo = ZERO_CHECK;
-		};
-		54C5002AA6CB49E09B1F9CD3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCEA4CF2C3B8412D9B2308A9;
-			remoteInfo = ZERO_CHECK;
-		};
-		918EBEC7B5B34F809410FA54 /* PBXContainerItemProxy */ = {
+		0B232CC3F81341A184293B9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AA20A0E61C3B46EF801D0062;
 			remoteInfo = asteroids;
 		};
-		A0C3A270A2BC47B0BD90AB75 /* PBXContainerItemProxy */ = {
+		26A56B227EDD443D9FC2AA91 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C1021179BDF42908A084F4E;
 			remoteInfo = glfw;
 		};
-		A5FF298930D549709494BA60 /* PBXContainerItemProxy */ = {
+		33DDA50728304A80A39E72EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5341F9A48A47CE89FC909B;
+			remoteInfo = glad;
+		};
+		56EA6D955BC143BB8EF32114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEA4CF2C3B8412D9B2308A9;
+			remoteInfo = ZERO_CHECK;
+		};
+		6930619E5B1D42D79C66CE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEA4CF2C3B8412D9B2308A9;
+			remoteInfo = ZERO_CHECK;
+		};
+		CAC93F6C48A745108266221B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C1021179BDF42908A084F4E;
 			remoteInfo = glfw;
 		};
-		B43F602C4D214962ADD54DD2 /* PBXContainerItemProxy */ = {
+		E4C00AB54FCC41B0AB765E5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C1021179BDF42908A084F4E;
-			remoteInfo = glfw;
+			remoteGlobalIDString = BCEA4CF2C3B8412D9B2308A9;
+			remoteInfo = ZERO_CHECK;
 		};
-		F0560E7378B3466190BE3ABC /* PBXContainerItemProxy */ = {
+		FE41ECF929D043A18653ECF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD31928565034EDB9B56CEA3 /* Project object */;
 			proxyType = 1;
@@ -122,243 +126,259 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001E0768781E41C7B8E4507E /* Angel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Angel.h; path = source/utils/Angel.h; sourceTree = SOURCE_ROOT; };
-		01B8CEDBB07D4365AB93709D /* cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
-		022101487DFA4E23AAAD54AE /* shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = shaders/shader.cpp; sourceTree = SOURCE_ROOT; };
-		095CC845A4764367B82FA9DF /* cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
-		0C2C271425CF4922940CB373 /* cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
-		1A888F42941547FDA610329E /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
-		1D086EE14C2344F39C241B2B /* Ship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ship.cpp; path = source/Ship.cpp; sourceTree = SOURCE_ROOT; };
-		1E196746A68945149AC5DBB4 /* asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F16F69CB7C24A97A054E512 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		24D6560F61C14492B6337BBE /* libglfw3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		254F46700ECD476D822C7884 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
-		26BED73F1AE44584AAEC6CD2 /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
-		29F8764FF37349CB97122D35 /* vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/utils/vec.h; sourceTree = SOURCE_ROOT; };
-		2D506503CA4D42868D3B5EA2 /* Ship.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ship.h; path = source/Ship.h; sourceTree = SOURCE_ROOT; };
-		30AD0902FACA4E3F8B4EE5B8 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
-		32D2F08FC69A40518BFB5E67 /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
-		33837F85255A4BD5B327DDF3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-		3B215011A05B49F9A7848B5D /* cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
-		40D5459E42AC4547B332BEA4 /* posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
-		427237B5F4F54A81993DFED8 /* nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
-		43D9CC1CDFF6454CA7441A33 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = build/CMakeFiles/asteroids.dir/Info.plist; sourceTree = SOURCE_ROOT; };
-		4907479FF1424135A2DD714E /* posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
-		4AA19F0FF92C4B2095E72916 /* mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/utils/mat.h; sourceTree = SOURCE_ROOT; };
-		58A6DE13127E4BF593652490 /* context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
-		5A14EA6349FD4FB6979C2866 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
-		5C35E5649F66463EAB9C0851 /* CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/utils/CheckError.h; sourceTree = SOURCE_ROOT; };
-		600D533C46A24F4F81502F50 /* monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
-		761C95B8071F4E7DADA83901 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7F4F93F7A58B4FEC933FCA1B /* nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
-		8082EEF4DD1B4E4DA217E885 /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
-		90D045C529F3438EAFEFD40E /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
-		A0C77D06592747348C8643FD /* glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
-		A1A6429E941943F8BAE1D240 /* libglad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEFB5621297546079B45E93D /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
-		B924527B51E947E092293F89 /* vshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Ship.glsl; path = shaders/vshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
-		B9EBD4D44C3544D0AED68343 /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
-		C0AA72D231C24A8389B4C8D3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C67C4808A537418BB21D2D21 /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
-		D6F8DC44BC1D4B80975B7550 /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
-		D7F8367FFD5B43E7968E6265 /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common.h; sourceTree = SOURCE_ROOT; };
-		DC206A2190BB445DA4E84B4F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E6B271B5F78E4702B646D65D /* fshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Ship.glsl; path = shaders/fshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
-		FFEDF539F1B745FBA7C11B86 /* vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		044F19D1580F4550958FC023 /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		0885FAE9952A4A0EB8324480 /* Bullet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Bullet.cpp; path = source/Bullet.cpp; sourceTree = SOURCE_ROOT; };
+		0C4D90F8A92441C8908D19B4 /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
+		0D08465436324DABA87BB265 /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		15FEA258428F4FCAA4CC346C /* Bullets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Bullets.cpp; path = source/Bullets.cpp; sourceTree = SOURCE_ROOT; };
+		1B80682B73734E12BFF7EDE0 /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common.h; sourceTree = SOURCE_ROOT; };
+		1BAB5655BB7248C89DB958DC /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		1D8E7A789847463CA769949C /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		1DF350DE043B4EBEBB08F582 /* context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
+		1E627883EC6B452ABC3C3BFA /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		30DA46E3BE514B76AA2F19BA /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		32C61108C6CE4FF8906046D3 /* libglfw3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A731ED8F374A7D98333116 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
+		393C0E08EF8A4BCFB25FCDD5 /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		412581C78B2B4A7C98F4D819 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = build/CMakeFiles/asteroids.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		4549D23318A345828E7F7875 /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		531054D5A6FE4998A2E3E459 /* Asteroids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Asteroids.h; path = source/Asteroids.h; sourceTree = SOURCE_ROOT; };
+		5F4AF4BE0FE34B7D801C8165 /* libglad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		613803E9A29B499AA7021EF5 /* glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		66A1C19502C34ABB81E09500 /* Ship.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ship.h; path = source/Ship.h; sourceTree = SOURCE_ROOT; };
+		68B638F9E299449A80002F01 /* monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		76EA61C585794613B6BF2B92 /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
+		789EE4A6F5884ACB8D69CF1B /* Asteroid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Asteroid.cpp; path = source/Asteroid.cpp; sourceTree = SOURCE_ROOT; };
+		79C87B2758CE40EF8B7F9FF9 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E24323BB5D6417BACD5DE7E /* fshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Ship.glsl; path = shaders/fshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		87084C5CED9E4443B905A585 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		879229E953A24536BE1EA3AF /* nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		8A39ED118894493FA5E32C6B /* Bullets.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Bullets.hpp; path = source/Bullets.hpp; sourceTree = SOURCE_ROOT; };
+		8C07E4B35376494599DD95E0 /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
+		9731C8CCDEC34181877F850A /* Bullet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Bullet.hpp; path = source/Bullet.hpp; sourceTree = SOURCE_ROOT; };
+		A7E10BE7C08443579E67F40B /* cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		AEA4BC3645D342DFB4327528 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B3752E4D87504875884E6FE8 /* vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/utils/vec.h; sourceTree = SOURCE_ROOT; };
+		BA1FC416AE63430A9EB5767F /* asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB49960C978146238F2CD093 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
+		BE42BCFB3890439595BC1C80 /* CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/utils/CheckError.h; sourceTree = SOURCE_ROOT; };
+		C467615305004859AD5D998C /* posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
+		C4CB0D0C71BC4B14A3B80DD4 /* vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		CE1FA57DAD044ACBAFF6CE0B /* Asteroid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Asteroid.h; path = source/Asteroid.h; sourceTree = SOURCE_ROOT; };
+		D1CFF134D9BF42C48CF0D850 /* Angel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Angel.h; path = source/utils/Angel.h; sourceTree = SOURCE_ROOT; };
+		D2D70DA6910C4F6C815EC8DD /* shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = shaders/shader.cpp; sourceTree = SOURCE_ROOT; };
+		DC5AAEE794F94A1490BF2C95 /* Asteroids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Asteroids.cpp; path = source/Asteroids.cpp; sourceTree = SOURCE_ROOT; };
+		DE682C1F05374616938009AC /* Ship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ship.cpp; path = source/Ship.cpp; sourceTree = SOURCE_ROOT; };
+		E3E1E005BF104C19AEB8B820 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E5520FB2F51040BFA5BB08EC /* cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		E981772F3D6A44FD9F69FB80 /* posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
+		F76AAA2F79C249628C4F58F2 /* cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		F91DCC0AC98645369A3EEADD /* vshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Ship.glsl; path = shaders/vshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		FA74928279E54176A617F813 /* nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		FBFFECE66820423D9EB45A97 /* mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/utils/mat.h; sourceTree = SOURCE_ROOT; };
+		FC358E6D44EF483DBD6A083F /* cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		09F021FF4F784D918AFCF211 /* CMake Rules */ = {
+		15F088EAB1C64B5E97F94AFA /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				4549D23318A345828E7F7875 /* cocoa_init.m */,
+				0D08465436324DABA87BB265 /* cocoa_joystick.m */,
+				FC358E6D44EF483DBD6A083F /* cocoa_monitor.m */,
+				E5520FB2F51040BFA5BB08EC /* cocoa_time.c */,
+				044F19D1580F4550958FC023 /* cocoa_window.m */,
+				1DF350DE043B4EBEBB08F582 /* context.c */,
+				38A731ED8F374A7D98333116 /* init.c */,
+				0C4D90F8A92441C8908D19B4 /* input.c */,
+				68B638F9E299449A80002F01 /* monitor.c */,
+				879229E953A24536BE1EA3AF /* nsgl_context.m */,
+				E981772F3D6A44FD9F69FB80 /* posix_tls.c */,
+				C4CB0D0C71BC4B14A3B80DD4 /* vulkan.c */,
+				76EA61C585794613B6BF2B92 /* window.c */,
 			);
-			name = "CMake Rules";
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		0A9442C366304CAD8ECB331B = {
+		292220AF12E44205BE7DF92B /* asteroids */ = {
 			isa = PBXGroup;
 			children = (
-				A21FA8772F384D1EA2275275 /* Sources */,
-				255445F6BC4D4BC4BB281F7D /* Resources */,
-				199A15FC2B4E4D27B46A8FFF /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		199A15FC2B4E4D27B46A8FFF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1E196746A68945149AC5DBB4 /* asteroids.app */,
-				A1A6429E941943F8BAE1D240 /* libglad.a */,
-				24D6560F61C14492B6337BBE /* libglfw3.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1B86FA5ED3F04B9E9D2845E4 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				36339F7CA0CA483A8370DEB2 /* CMake Rules */,
-				C0AA72D231C24A8389B4C8D3 /* CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		255445F6BC4D4BC4BB281F7D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		3551179714C84863BA7AB409 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				A0C77D06592747348C8643FD /* glfw_config.h */,
-				AEFB5621297546079B45E93D /* glfw3.h */,
-				1A888F42941547FDA610329E /* glfw3native.h */,
-				0C2C271425CF4922940CB373 /* cocoa_joystick.h */,
-				3B215011A05B49F9A7848B5D /* cocoa_platform.h */,
-				26BED73F1AE44584AAEC6CD2 /* internal.h */,
-				427237B5F4F54A81993DFED8 /* nsgl_context.h */,
-				40D5459E42AC4547B332BEA4 /* posix_tls.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		36339F7CA0CA483A8370DEB2 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		39434FA2B8AB45F987BA8AAF /* asteroids */ = {
-			isa = PBXGroup;
-			children = (
-				AB2E203F278E429E92EAD319 /* Header Files */,
-				B831AE73D7EE4CB1ADF29E91 /* Source Files */,
-				B403744E17DB4305B40B37F8 /* Resources */,
-				DC206A2190BB445DA4E84B4F /* CMakeLists.txt */,
-				E6B271B5F78E4702B646D65D /* fshader_Ship.glsl */,
-				B924527B51E947E092293F89 /* vshader_Ship.glsl */,
+				FCAAA0FC6BBD49B69486C371 /* Header Files */,
+				C943CA04406E4FFEB3E108CF /* Source Files */,
+				6B2FDAB74D7C46ADBB2F2FB8 /* Resources */,
+				E3E1E005BF104C19AEB8B820 /* CMakeLists.txt */,
+				7E24323BB5D6417BACD5DE7E /* fshader_Ship.glsl */,
+				F91DCC0AC98645369A3EEADD /* vshader_Ship.glsl */,
 			);
 			name = asteroids;
 			sourceTree = "<group>";
 		};
-		3ED90C11A0664687BFE2B486 /* glfw */ = {
+		32A5BBFC4B3B438C917A5ADE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF1ACC4703414928AD315D8D /* Source Files */,
-				3551179714C84863BA7AB409 /* Header Files */,
-				33837F85255A4BD5B327DDF3 /* CMakeLists.txt */,
+				BA1FC416AE63430A9EB5767F /* asteroids.app */,
+				5F4AF4BE0FE34B7D801C8165 /* libglad.a */,
+				32C61108C6CE4FF8906046D3 /* libglfw3.a */,
 			);
-			name = glfw;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		48E4CF7A879C43D3A3CA7545 /* ZERO_CHECK */ = {
+		36633C6900184726A973549E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				09F021FF4F784D918AFCF211 /* CMake Rules */,
-				1F16F69CB7C24A97A054E512 /* CMakeLists.txt */,
-			);
-			name = ZERO_CHECK;
-			sourceTree = "<group>";
-		};
-		5A012CAF02C44DC49DF2EFEA /* GLFW3 */ = {
-			isa = PBXGroup;
-			children = (
-				3ED90C11A0664687BFE2B486 /* glfw */,
-			);
-			name = GLFW3;
-			sourceTree = "<group>";
-		};
-		A21FA8772F384D1EA2275275 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				39434FA2B8AB45F987BA8AAF /* asteroids */,
-				CEF9A527038A444CA37A6348 /* glad */,
-				1B86FA5ED3F04B9E9D2845E4 /* ALL_BUILD */,
-				48E4CF7A879C43D3A3CA7545 /* ZERO_CHECK */,
-				5A012CAF02C44DC49DF2EFEA /* GLFW3 */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		A391A3982A84435CB68FC344 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				254F46700ECD476D822C7884 /* glad.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		AB2E203F278E429E92EAD319 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				2D506503CA4D42868D3B5EA2 /* Ship.h */,
-				D7F8367FFD5B43E7968E6265 /* common.h */,
-				001E0768781E41C7B8E4507E /* Angel.h */,
-				5C35E5649F66463EAB9C0851 /* CheckError.h */,
-				4AA19F0FF92C4B2095E72916 /* mat.h */,
-				29F8764FF37349CB97122D35 /* vec.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		B403744E17DB4305B40B37F8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				43D9CC1CDFF6454CA7441A33 /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		B831AE73D7EE4CB1ADF29E91 /* Source Files */ = {
+		40A5BD933C5340948BDDA67E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				022101487DFA4E23AAAD54AE /* shader.cpp */,
-				1D086EE14C2344F39C241B2B /* Ship.cpp */,
-				30AD0902FACA4E3F8B4EE5B8 /* main.cpp */,
+				292220AF12E44205BE7DF92B /* asteroids */,
+				4EAD994FE3764393850407FC /* glad */,
+				87CCF911B7714471BDD8E31F /* ALL_BUILD */,
+				7E1DC7DA16734B948BAF76AD /* ZERO_CHECK */,
+				8CAD63F5ED2B4BDDBF3FFB53 /* GLFW3 */,
 			);
-			name = "Source Files";
+			name = Sources;
 			sourceTree = "<group>";
 		};
-		C993083C6BAB423991EE396B /* Header Files */ = {
+		4EAD994FE3764393850407FC /* glad */ = {
 			isa = PBXGroup;
 			children = (
-				C67C4808A537418BB21D2D21 /* glad.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		CEF9A527038A444CA37A6348 /* glad */ = {
-			isa = PBXGroup;
-			children = (
-				C993083C6BAB423991EE396B /* Header Files */,
-				A391A3982A84435CB68FC344 /* Source Files */,
-				761C95B8071F4E7DADA83901 /* CMakeLists.txt */,
+				5238AB6389904EF8AB906CD2 /* Header Files */,
+				DB187C63A6674EF78C21FB9A /* Source Files */,
+				79C87B2758CE40EF8B7F9FF9 /* CMakeLists.txt */,
 			);
 			name = glad;
 			sourceTree = "<group>";
 		};
-		DF1ACC4703414928AD315D8D /* Source Files */ = {
+		5238AB6389904EF8AB906CD2 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				90D045C529F3438EAFEFD40E /* cocoa_init.m */,
-				D6F8DC44BC1D4B80975B7550 /* cocoa_joystick.m */,
-				095CC845A4764367B82FA9DF /* cocoa_monitor.m */,
-				01B8CEDBB07D4365AB93709D /* cocoa_time.c */,
-				B9EBD4D44C3544D0AED68343 /* cocoa_window.m */,
-				58A6DE13127E4BF593652490 /* context.c */,
-				5A14EA6349FD4FB6979C2866 /* init.c */,
-				8082EEF4DD1B4E4DA217E885 /* input.c */,
-				600D533C46A24F4F81502F50 /* monitor.c */,
-				7F4F93F7A58B4FEC933FCA1B /* nsgl_context.m */,
-				4907479FF1424135A2DD714E /* posix_tls.c */,
-				FFEDF539F1B745FBA7C11B86 /* vulkan.c */,
-				32D2F08FC69A40518BFB5E67 /* window.c */,
+				8C07E4B35376494599DD95E0 /* glad.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6574D699B0D84CB6900E462B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6B2FDAB74D7C46ADBB2F2FB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				412581C78B2B4A7C98F4D819 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BD7FF51FC0C47C69D0B4429 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				613803E9A29B499AA7021EF5 /* glfw_config.h */,
+				30DA46E3BE514B76AA2F19BA /* glfw3.h */,
+				1D8E7A789847463CA769949C /* glfw3native.h */,
+				A7E10BE7C08443579E67F40B /* cocoa_joystick.h */,
+				F76AAA2F79C249628C4F58F2 /* cocoa_platform.h */,
+				393C0E08EF8A4BCFB25FCDD5 /* internal.h */,
+				FA74928279E54176A617F813 /* nsgl_context.h */,
+				C467615305004859AD5D998C /* posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		752C4BF001F14749AD014A4C /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				15F088EAB1C64B5E97F94AFA /* Source Files */,
+				6BD7FF51FC0C47C69D0B4429 /* Header Files */,
+				1BAB5655BB7248C89DB958DC /* CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		7E1DC7DA16734B948BAF76AD /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				DB66FA60F6C146D2A450C0AA /* CMake Rules */,
+				87084C5CED9E4443B905A585 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		87CCF911B7714471BDD8E31F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6574D699B0D84CB6900E462B /* CMake Rules */,
+				AEA4BC3645D342DFB4327528 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8CAD63F5ED2B4BDDBF3FFB53 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				752C4BF001F14749AD014A4C /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		8D74CB48B930465C856F6CD4 = {
+			isa = PBXGroup;
+			children = (
+				40A5BD933C5340948BDDA67E /* Sources */,
+				36633C6900184726A973549E /* Resources */,
+				32A5BBFC4B3B438C917A5ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C943CA04406E4FFEB3E108CF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D70DA6910C4F6C815EC8DD /* shader.cpp */,
+				789EE4A6F5884ACB8D69CF1B /* Asteroid.cpp */,
+				DC5AAEE794F94A1490BF2C95 /* Asteroids.cpp */,
+				0885FAE9952A4A0EB8324480 /* Bullet.cpp */,
+				15FEA258428F4FCAA4CC346C /* Bullets.cpp */,
+				DE682C1F05374616938009AC /* Ship.cpp */,
+				1E627883EC6B452ABC3C3BFA /* main.cpp */,
 			);
 			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DB187C63A6674EF78C21FB9A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB49960C978146238F2CD093 /* glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DB66FA60F6C146D2A450C0AA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FCAAA0FC6BBD49B69486C371 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FA57DAD044ACBAFF6CE0B /* Asteroid.h */,
+				531054D5A6FE4998A2E3E459 /* Asteroids.h */,
+				9731C8CCDEC34181877F850A /* Bullet.hpp */,
+				8A39ED118894493FA5E32C6B /* Bullets.hpp */,
+				66A1C19502C34ABB81E09500 /* Ship.h */,
+				1B80682B73734E12BFF7EDE0 /* common.h */,
+				D1CFF134D9BF42C48CF0D850 /* Angel.h */,
+				BE42BCFB3890439595BC1C80 /* CheckError.h */,
+				FBFFECE66820423D9EB45A97 /* mat.h */,
+				B3752E4D87504875884E6FE8 /* vec.h */,
+			);
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,26 +386,26 @@
 /* Begin PBXNativeTarget section */
 		2B5341F9A48A47CE89FC909B /* glad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE56A447724D4BACB14DA3A8 /* Build configuration list for PBXNativeTarget "glad" */;
+			buildConfigurationList = F4FDB3A3EC9349DC9B37E803 /* Build configuration list for PBXNativeTarget "glad" */;
 			buildPhases = (
-				6D25161E71E7417891D5F08C /* Sources */,
+				839CB781D07A482DB24FA5EA /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16963111251E4C08BF06974A /* PBXTargetDependency */,
-				CE040D24DDDF401CB7FC5706 /* PBXTargetDependency */,
+				DAD90EA4EDB14BCE97C20795 /* PBXTargetDependency */,
+				5AE21E79003B4D6E9AC04984 /* PBXTargetDependency */,
 			);
 			name = glad;
 			productName = glad;
-			productReference = A1A6429E941943F8BAE1D240 /* libglad.a */;
+			productReference = 5F4AF4BE0FE34B7D801C8165 /* libglad.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5C1021179BDF42908A084F4E /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 373AF207FAD440008676100D /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = 94674A628EAE4C048E7FA03F /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				DAD841C76D6A487DBE093665 /* Sources */,
+				60D02085F66A4BDDA772EA69 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -393,25 +413,25 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 24D6560F61C14492B6337BBE /* libglfw3.a */;
+			productReference = 32C61108C6CE4FF8906046D3 /* libglfw3.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AA20A0E61C3B46EF801D0062 /* asteroids */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A64D912EA5D8443793A1BC5D /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildConfigurationList = 09083B51AF3E4304ADEF25F3 /* Build configuration list for PBXNativeTarget "asteroids" */;
 			buildPhases = (
-				586EA19C7E36464A86BA2B45 /* Sources */,
+				6D15A758499448C18F3E7EF3 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2988498815CF4F9EA20A47F2 /* PBXTargetDependency */,
-				798308F7F2204E9398587640 /* PBXTargetDependency */,
-				0CEEF6EAD2B04F0E9C5C5158 /* PBXTargetDependency */,
+				D4857E3C7D0A4052BFFF98D5 /* PBXTargetDependency */,
+				F5E08D88E60646198B827058 /* PBXTargetDependency */,
+				07882BCD928B4DF5BDCF527C /* PBXTargetDependency */,
 			);
 			name = asteroids;
 			productName = asteroids;
-			productReference = 1E196746A68945149AC5DBB4 /* asteroids.app */;
+			productReference = BA1FC416AE63430A9EB5767F /* asteroids.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -423,14 +443,14 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0730;
 			};
-			buildConfigurationList = 1A2CDB4B0B01437583453240 /* Build configuration list for PBXProject "ASTEROIDS" */;
+			buildConfigurationList = F0AFB40EA32145CCAF8D9D64 /* Build configuration list for PBXProject "ASTEROIDS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0A9442C366304CAD8ECB331B;
+			mainGroup = 8D74CB48B930465C856F6CD4;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -444,7 +464,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		211F601701624CB19E938184 /* CMake Rules */ = {
+		487302D835884DB0B0DAE2CB /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +475,7 @@
 			shellScript = "make -C /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/midterm/asteroids_template/build -f /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/midterm/asteroids_template/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		EBC59636697C4AD696D8F1E1 /* CMake Rules */ = {
+		983535535A8D45138AAF5CB8 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,218 +489,100 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		586EA19C7E36464A86BA2B45 /* Sources */ = {
+		60D02085F66A4BDDA772EA69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C02C0FC814694227A30DC152 /* shader.cpp in Sources */,
-				F75D0EF84BD04FFD8A906B5E /* Ship.cpp in Sources */,
-				2A74163296744F9BB4528C5B /* main.cpp in Sources */,
+				D5CBC4FAE38E47A8B09AEC16 /* cocoa_init.m in Sources */,
+				6FD351C36A7D4625AD7F812D /* cocoa_joystick.m in Sources */,
+				525AD2BC6F344A7584318BC6 /* cocoa_monitor.m in Sources */,
+				C2D8B2AD529041E49C9085F6 /* cocoa_time.c in Sources */,
+				4D665E29236542F6B2219EEB /* cocoa_window.m in Sources */,
+				9DA07D765D914F88838368F8 /* context.c in Sources */,
+				155FC8DAF5A64C5CB81CF48C /* init.c in Sources */,
+				5FCE32B9E4CB4745A1DF7765 /* input.c in Sources */,
+				72BCE87041D04639ACDAB1F1 /* monitor.c in Sources */,
+				60879255CC2A4EA983C34761 /* nsgl_context.m in Sources */,
+				9CDDEF5446D144FCA16D0818 /* posix_tls.c in Sources */,
+				FB01120E773843B0885D0EA9 /* vulkan.c in Sources */,
+				36D6D68675DA4CF690CC698F /* window.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D25161E71E7417891D5F08C /* Sources */ = {
+		6D15A758499448C18F3E7EF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46319735AC654370883761E5 /* glad.c in Sources */,
+				4004947CF32C472E96329677 /* shader.cpp in Sources */,
+				FBACA29363E94AE7BE00B276 /* Asteroid.cpp in Sources */,
+				6D7A2842799B40B4801AF72D /* Asteroids.cpp in Sources */,
+				B9BDE14D332D447D8E407D3C /* Bullet.cpp in Sources */,
+				51445BE92556474BA2FF9440 /* Bullets.cpp in Sources */,
+				43532303DE2041778EA28F5F /* Ship.cpp in Sources */,
+				711553A9B30A4529ABDBEA5B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAD841C76D6A487DBE093665 /* Sources */ = {
+		839CB781D07A482DB24FA5EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E57324DD8FF4C00A9CDE6B3 /* cocoa_init.m in Sources */,
-				0F7F232DF0114E50B96C7812 /* cocoa_joystick.m in Sources */,
-				547B6724E0C24918AE9D848D /* cocoa_monitor.m in Sources */,
-				27CF37BFB1EF4DCA859DB61E /* cocoa_time.c in Sources */,
-				06FBF1D5BDCE4569BACE58D4 /* cocoa_window.m in Sources */,
-				706B48EDDA644EE8B93F3898 /* context.c in Sources */,
-				ADF4A3F82FB54539BC0FDD17 /* init.c in Sources */,
-				40B85AC221A046D58C6EA681 /* input.c in Sources */,
-				FBF5D3C00CBA4B6986520ABB /* monitor.c in Sources */,
-				60DA96E4057C408F980BEF17 /* nsgl_context.m in Sources */,
-				105A104835534778821C01D1 /* posix_tls.c in Sources */,
-				050637B4DF344747B50310C2 /* vulkan.c in Sources */,
-				435D070DBBE94ED8A87246E3 /* window.c in Sources */,
+				D000DE5A407645A692C8C2AD /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CEEF6EAD2B04F0E9C5C5158 /* PBXTargetDependency */ = {
+		07882BCD928B4DF5BDCF527C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */;
-			targetProxy = 54C5002AA6CB49E09B1F9CD3 /* PBXContainerItemProxy */;
+			targetProxy = 6930619E5B1D42D79C66CE5E /* PBXContainerItemProxy */;
 		};
-		16963111251E4C08BF06974A /* PBXTargetDependency */ = {
+		5AE21E79003B4D6E9AC04984 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C1021179BDF42908A084F4E /* glfw */;
-			targetProxy = A0C3A270A2BC47B0BD90AB75 /* PBXContainerItemProxy */;
+			target = BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */;
+			targetProxy = E4C00AB54FCC41B0AB765E5A /* PBXContainerItemProxy */;
 		};
-		2988498815CF4F9EA20A47F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B5341F9A48A47CE89FC909B /* glad */;
-			targetProxy = F0560E7378B3466190BE3ABC /* PBXContainerItemProxy */;
-		};
-		64FB428C7BFE4A428DEC0230 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C1021179BDF42908A084F4E /* glfw */;
-			targetProxy = A5FF298930D549709494BA60 /* PBXContainerItemProxy */;
-		};
-		73455743D1CB48D4A151FCC7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B5341F9A48A47CE89FC909B /* glad */;
-			targetProxy = 2A1143F493EB44E28EDF13FD /* PBXContainerItemProxy */;
-		};
-		798308F7F2204E9398587640 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C1021179BDF42908A084F4E /* glfw */;
-			targetProxy = B43F602C4D214962ADD54DD2 /* PBXContainerItemProxy */;
-		};
-		AEC55EB90BA0488AA266D28A /* PBXTargetDependency */ = {
+		64F198E50FA04F1BA2D571AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AA20A0E61C3B46EF801D0062 /* asteroids */;
-			targetProxy = 918EBEC7B5B34F809410FA54 /* PBXContainerItemProxy */;
+			targetProxy = 0B232CC3F81341A184293B9A /* PBXContainerItemProxy */;
 		};
-		CE040D24DDDF401CB7FC5706 /* PBXTargetDependency */ = {
+		8C8C0391A2A64E2DAA0DAF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1021179BDF42908A084F4E /* glfw */;
+			targetProxy = CAC93F6C48A745108266221B /* PBXContainerItemProxy */;
+		};
+		B383E06BB9EF4B6B81281EE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */;
-			targetProxy = 3A5CA148A01C443DBCD0A31D /* PBXContainerItemProxy */;
+			targetProxy = 56EA6D955BC143BB8EF32114 /* PBXContainerItemProxy */;
 		};
-		DD0ADAFC6F2A4BE1A97C8AB4 /* PBXTargetDependency */ = {
+		D4857E3C7D0A4052BFFF98D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BCEA4CF2C3B8412D9B2308A9 /* ZERO_CHECK */;
-			targetProxy = 0DDEF5206D5F42A5986F0839 /* PBXContainerItemProxy */;
+			target = 5C1021179BDF42908A084F4E /* glfw */;
+			targetProxy = 0664E9C1DC7C4809AFDA4A9C /* PBXContainerItemProxy */;
+		};
+		DAD90EA4EDB14BCE97C20795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1021179BDF42908A084F4E /* glfw */;
+			targetProxy = 26A56B227EDD443D9FC2AA91 /* PBXContainerItemProxy */;
+		};
+		DEE3F626161F4AB98C5D0566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5341F9A48A47CE89FC909B /* glad */;
+			targetProxy = 33DDA50728304A80A39E72EF /* PBXContainerItemProxy */;
+		};
+		F5E08D88E60646198B827058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5341F9A48A47CE89FC909B /* glad */;
+			targetProxy = FE41ECF929D043A18653ECF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0818ED3A496A4036B2A0E03E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/build";
-			};
-			name = Debug;
-		};
-		0B11A8285D27479991DBF26B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-				);
-				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/asteroids.dir/Info.plist";
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    ";
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/Debug/libglfw3.a\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/Debug/libglad.a\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/Debug/libglfw3.a\"",
-					"-framework",
-					Cocoa,
-					"-framework",
-					IOKit,
-					"-framework",
-					CoreFoundation,
-					"-framework",
-					CoreVideo,
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = asteroids;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		158D11F79109466D87139CD1 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-				);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		35655AE13F62416C958288D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-				);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		396425F745AF4C61B4C68E23 /* Release */ = {
+		09F5C4E76FFC414386D64EA0 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -709,518 +611,18 @@
 					"$(inherited)",
 				);
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		3BB26973BC00408F94362421 /* RelWithDebInfo */ = {
+		1042169DEF134C87AC9CF639 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/build";
 			};
-			name = RelWithDebInfo;
-		};
-		403EA505C0A048EBAEA716B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-				);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
 			name = Debug;
 		};
-		4BCFCF245F2D4669BAADA237 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-				);
-				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/asteroids.dir/Info.plist";
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/RelWithDebInfo/libglad.a\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\"",
-					"-framework",
-					Cocoa,
-					"-framework",
-					IOKit,
-					"-framework",
-					CoreFoundation,
-					"-framework",
-					CoreVideo,
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = asteroids;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		4BD7861A49294B36816A301E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glad;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		5A488FA3A61344AC89AC5D95 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-				);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		61C7B6276F7D4A68B05F40AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					_GLFW_USE_CONFIG_H,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-DNDEBUG",
-					"-fPIC",
-					"-Wall",
-				);
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		78586A4943834FAAB51A2462 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/build";
-			};
-			name = Release;
-		};
-		78F48C147A5F4B54A5DE63EA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/build";
-			};
-			name = MinSizeRel;
-		};
-		991C0029944E470A8D26D75E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					_GLFW_USE_CONFIG_H,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-DNDEBUG",
-					"-fPIC",
-					"-Wall",
-				);
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		A1320975855B401DA22CC242 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glad;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		A432A901C9C64BD4AB7DD584 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glad;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		A70AED329AEB407E90077D41 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-				);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		BBB7AC2DC89B474296166FEF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					_GLFW_USE_CONFIG_H,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-DNDEBUG",
-					"-fPIC",
-					"-Wall",
-				);
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		C4250B75CD2641779F56A8F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glad;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		CEC7B3FC84F847FC8131D0B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
-				);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		D2C6FE808E03413EBAFAE2FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					_GLFW_USE_CONFIG_H,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
-					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-fPIC",
-					"-Wall",
-				);
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		DA22E67AA99A4D33ACA40F5A /* MinSizeRel */ = {
+		22B375BC2B874BD18426D4A8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1271,7 +673,130 @@
 			};
 			name = MinSizeRel;
 		};
-		E07032B7D39646B783494B2D /* MinSizeRel */ = {
+		2B3E663F2E2D420BB583F143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		3A731231AA604BFB99A59631 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+				);
+				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/RelWithDebInfo/libglad.a\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\"",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		3CE0AB874F1D45D696688056 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		444362DE74ED40398599B44A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1300,9 +825,130 @@
 					"$(inherited)",
 				);
 			};
+			name = Debug;
+		};
+		56CADB67A8BA4C6497B55215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		64738E6557454233B06394E1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/build";
+			};
 			name = MinSizeRel;
 		};
-		E1810550E5C547B3AAAA78D1 /* Release */ = {
+		6F63AAF1088A4FB2948D596D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		70E0B18EB8074E749E5B6526 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		7C2D4B5F20C74C6C8473CE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		A51484B24812450C87E0B37F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1353,71 +999,449 @@
 			};
 			name = Release;
 		};
+		B36A1AFA9F7C48EF90F46253 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B74316257FAB4FBE8AD657A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/build";
+			};
+			name = Release;
+		};
+		C4133C5D8A954F569D0DB886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		D4EDFDDE3C254BF5BD4BF169 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		D8625FE00AA841EEBD10634A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/src\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		E33A84D62EB74AB8858BBC98 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		E5036D647CC5473992DDEA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+				);
+				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/Debug/libglfw3.a\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/Debug/libglad.a\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build/glfw-3.2/src/Debug/libglfw3.a\"",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		E765844F2DF540AEB462BE33 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		E90465FCB65B42C3BFF29C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		F42967FF667242AB86C3AF8F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		FA43AD122AF84D4FA8C4071D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/deps\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/source/common\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/shaders\"",
+					"\"/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/glfw-3.2/include\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/midterm/asteroids_template/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A2CDB4B0B01437583453240 /* Build configuration list for PBXProject "ASTEROIDS" */ = {
+		09083B51AF3E4304ADEF25F3 /* Build configuration list for PBXNativeTarget "asteroids" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0818ED3A496A4036B2A0E03E /* Debug */,
-				78586A4943834FAAB51A2462 /* Release */,
-				78F48C147A5F4B54A5DE63EA /* MinSizeRel */,
-				3BB26973BC00408F94362421 /* RelWithDebInfo */,
+				E5036D647CC5473992DDEA68 /* Debug */,
+				A51484B24812450C87E0B37F /* Release */,
+				22B375BC2B874BD18426D4A8 /* MinSizeRel */,
+				3A731231AA604BFB99A59631 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		373AF207FAD440008676100D /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		0C6A952A8FA54CBD948C8991 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2C6FE808E03413EBAFAE2FF /* Debug */,
-				61C7B6276F7D4A68B05F40AE /* Release */,
-				BBB7AC2DC89B474296166FEF /* MinSizeRel */,
-				991C0029944E470A8D26D75E /* RelWithDebInfo */,
+				2B3E663F2E2D420BB583F143 /* Debug */,
+				7C2D4B5F20C74C6C8473CE8F /* Release */,
+				D4EDFDDE3C254BF5BD4BF169 /* MinSizeRel */,
+				E765844F2DF540AEB462BE33 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		41C60CA1275D45E8AE2673AB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		1CC58F5FF26D4EDA928D59AB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				403EA505C0A048EBAEA716B0 /* Debug */,
-				396425F745AF4C61B4C68E23 /* Release */,
-				E07032B7D39646B783494B2D /* MinSizeRel */,
-				A70AED329AEB407E90077D41 /* RelWithDebInfo */,
+				444362DE74ED40398599B44A /* Debug */,
+				6F63AAF1088A4FB2948D596D /* Release */,
+				09F5C4E76FFC414386D64EA0 /* MinSizeRel */,
+				F42967FF667242AB86C3AF8F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		627CAB4CB5084C7C96532F4A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		94674A628EAE4C048E7FA03F /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEC7B3FC84F847FC8131D0B0 /* Debug */,
-				35655AE13F62416C958288D9 /* Release */,
-				158D11F79109466D87139CD1 /* MinSizeRel */,
-				5A488FA3A61344AC89AC5D95 /* RelWithDebInfo */,
+				D8625FE00AA841EEBD10634A /* Debug */,
+				56CADB67A8BA4C6497B55215 /* Release */,
+				3CE0AB874F1D45D696688056 /* MinSizeRel */,
+				B36A1AFA9F7C48EF90F46253 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A64D912EA5D8443793A1BC5D /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+		F0AFB40EA32145CCAF8D9D64 /* Build configuration list for PBXProject "ASTEROIDS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B11A8285D27479991DBF26B /* Debug */,
-				E1810550E5C547B3AAAA78D1 /* Release */,
-				DA22E67AA99A4D33ACA40F5A /* MinSizeRel */,
-				4BCFCF245F2D4669BAADA237 /* RelWithDebInfo */,
+				1042169DEF134C87AC9CF639 /* Debug */,
+				B74316257FAB4FBE8AD657A4 /* Release */,
+				64738E6557454233B06394E1 /* MinSizeRel */,
+				70E0B18EB8074E749E5B6526 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BE56A447724D4BACB14DA3A8 /* Build configuration list for PBXNativeTarget "glad" */ = {
+		F4FDB3A3EC9349DC9B37E803 /* Build configuration list for PBXNativeTarget "glad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4250B75CD2641779F56A8F1 /* Debug */,
-				4BD7861A49294B36816A301E /* Release */,
-				A432A901C9C64BD4AB7DD584 /* MinSizeRel */,
-				A1320975855B401DA22CC242 /* RelWithDebInfo */,
+				E90465FCB65B42C3BFF29C6C /* Debug */,
+				C4133C5D8A954F569D0DB886 /* Release */,
+				E33A84D62EB74AB8858BBC98 /* MinSizeRel */,
+				FA43AD122AF84D4FA8C4071D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
