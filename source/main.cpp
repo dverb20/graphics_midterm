@@ -121,6 +121,7 @@ int main(void)
     ship.draw(proj);
       if(asteroids.asteroids.size() == 0){
           std::cout << "Great Job! You Win!" << std::endl;
+          break;
       }
     asteroids.draw(proj);
       if(ship.cluster.active() == true){
